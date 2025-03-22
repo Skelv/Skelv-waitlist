@@ -17,6 +17,7 @@ const companies = [
   { src: "/logo5c.png" },
 ];
 
+
 const Hero = () => {
   return (
     <section className=" px-32 ">
@@ -40,7 +41,7 @@ const Hero = () => {
                   key={index}
                   width={40}
                   height={40}
-                  className="rounded-full"
+                  className="rounded-full border border-black "
                   src={"/" + data.src}
                   alt="image"
                 />
@@ -89,8 +90,8 @@ const Hero = () => {
       <div className="companies ">
         <p className="text-center">Trusted by 200+ companies</p>
         <ul className="flex justify-center flex-wrap items-center my-10 relative ">
-          {companies.map(data => (
-          <li key={data.src} className="w-full max-md:max-w-28 max-w-52 mx-5 list-none relative ">
+          {companies.map((data, index) => (
+          <li key={index} className="w-full max-md:max-w-28 max-w-52 mx-5 list-none relative ">
             <Image
               width={500}
               height={288}

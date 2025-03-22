@@ -6,3 +6,6 @@ export {default as Mission} from './Mission'
 export {default as Footer} from './Footer'
 export {default as Accordion} from './Accordion'
 export {default as Faq} from './Faq'
+export {default as HowItWorks} from './HowItWorks'
+export {default as Banner} from "./Banner"
+export {default as BackToTop} from './BackToTop'
