@@ -1,33 +1,32 @@
+'use client'
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import { OutLineButton } from "./Button";
+import {Link} from 'react-scroll'
 
 const nav = [
-  { name: "About", route: "/" },
-  { name: "How it works", route: "/" },
-  { name: "Launching strategy", route: "/" },
-  { name: "FAQs", route: "/" },
+  { name: "About", route: "mission" },
+  { name: "How it works", route: 'howitworks'  },
+  { name: "Launching strategy", route: "vision" },
+  { name: "FAQs", route: "faq" },
 ];
 
 const Header = () => {
   return (
-    <div className="h-20 shadow-sm border-b-2 border flex items-center justify-between px-32">
+    <div className="h-20 shadow-sm border-b-2 border flex items-center justify-between px-32" id='header' >
       <div>
-        <Image
-          width={50}
-          height={50}
-          alt="logo"
-          aria-valuetext="logo image"
-          src={"globe.svg"}
-        />
+        <p className="text-2xl font-Monteserrat-bold" >SKLEV</p>
       </div>
 
       <nav className="flex  justify-between w-[40%] flex-row">
         {nav.map((nav, index) => (
           <ul key={nav.name} className="flex">
-            <Link href={"/"}>
-              <li>{nav.name}</li>
+            <Link to={nav.route}  activeClass="active"
+              smooth={true}
+              spy={true}
+              key={index}
+              offset={-150}>
+              <li className="cursor-pointer " >{nav.name}</li>
             </Link>
           </ul>
         ))}

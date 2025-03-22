@@ -1,4 +1,4 @@
-import {Faq, Footer, Header, Hero, Mission, Vision } from '@/components'
+import {BackToTop, Banner, Faq, Footer, Header, Hero, HowItWorks, Mission, Vision } from '@/components'
 import React from 'react'
 
 const Home = () => {
@@ -8,10 +8,13 @@ const Home = () => {
         <Header/>
       </header>
       <main>
+        <BackToTop/>
         <Hero/>
         <Mission/>
         <Vision/>
+        <HowItWorks/>
         <Faq/>
+        <Banner/>
       </main>
       <footer>
         <Footer/>

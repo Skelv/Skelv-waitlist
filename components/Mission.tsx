@@ -1,10 +1,10 @@
 import React from 'react'
 import { FaSuitcase } from 'react-icons/fa'
 
-const Miission = () => {
+const Mission = () => {
   return (
-    <div className='m-32' >
-     <h3 className='text-xl font-Monteserrat-bold my-10' >OUR MISSION</h3>
+    <div className='m-40' id='mission' >
+     <h3 className='text-2xl font-Monteserrat-bold my-10' >OUR MISSION</h3>
      <div className="grid grid-cols-2">
      <div className='' >
       <div className='text-2xl text-white bg-orange-700 rounded-full w-fit p-3 text-center' ><FaSuitcase/></div>
@@ -22,4 +22,4 @@ const Miission = () => {
   )
 }
 
-export default Miission
+export default Mission

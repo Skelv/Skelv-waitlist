@@ -4,12 +4,12 @@ import { OutLineButton } from './Button'
 
 const Vision = () => {
   return (
-    <div className="grid grid-cols-2 gap-10 mx-32">
+    <div className="grid grid-cols-2 gap-10 mx-40" id='vision'>
       <div className=' ' >
       <Image src='/img.png' width={30} height={20} className='w-full h-[60%] object-cover ' alt='Vision illustration' />
       </div>
       <div>
-     <h3 className='text-xl font-Monteserrat-bold my-5' >OUR VISION</h3>
+     <h3 className='text-2xl font-Monteserrat-bold my-5' >OUR VISION</h3>
      <p className='my-3' >
      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic impedit, minima harum, sapiente dolorem at dolorum vel corporis consequuntur veritatis, nemo perferendis! Quis rem soluta est suscipit laborum sit commodi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo doloremque eius quo, odio illum, deserunt debitis et fugit eaque sit ipsam iusto velit eveniet officiis maxime? Fugit necessitatibus ducimus quibusdam!
       
