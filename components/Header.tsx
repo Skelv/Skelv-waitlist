@@ -22,7 +22,7 @@ const Header = () => {
       
       
       <Link className="text-2xl w-[20%] font-Monteserrat-bold cursor-pointer "  href='/'>
-      <p   >SKLEV</p>
+      <p   >SKELV</p>
       </Link>
       
 
