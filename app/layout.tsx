@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components";
 
-
-export const metadata = {
+export const metadata: Metadata = {
   title: "Skelv",
   description: "Get Hired, Gain Experience, Build Your Portfolio.",
   icons: 'globe.svg',
   other: {
-    "stylesheet":"https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css",
-  }
-
+    stylesheet: "https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css",
+  },
+};
 
 export default function RootLayout({
   children,
@@ -19,11 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className=""
-      >
-        <Header/>
-
+      <body className="">
+        <Header />
         {children}
       </body>
     </html>
