@@ -12,12 +12,17 @@ const Vision = () => {
       <div>
      <h3 className='text-2xl font-Monteserrat-bold my-5' >OUR VISION</h3>
      <p className='my-3' >
-     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic impedit, minima harum, sapiente dolorem at dolorum vel corporis consequuntur veritatis, nemo perferendis! Quis rem soluta est suscipit laborum sit commodi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo doloremque eius quo, odio illum, deserunt debitis et fugit eaque sit ipsam iusto velit eveniet officiis maxime? Fugit necessitatibus ducimus quibusdam!
+     We envision a world where aspiring professionals no longer struggle to gain real-world experience and build strong portfolios.
+ Skelv is creating an ecosystem where talents can showcase their skills through meaningful projects, and businesses can connect
+ with fresh, motivated professionals ready to grow.
+
       
      </p>
 
      <p className='my-3' >
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odio atque id, quibusdam animi facilis dicta explicabo eligendi, tempora sapiente molestiae non beatae provident ullam adipisci temporibus quos eum necessitatibus!</p>
+     By making experience more accessible, we empower talents to launch their 
+careers with confidence and help businesses find innovative solutions.
+</p>
 
 <OutLineButton link='/waitlist' className="border-orange-500 text-orange-500 max-md:w-full w-[60%] my-5 mx-auto font-Monteserrat-bold hover:text-white hover:bg-orange-500 transition-all ease-out duration-75 " text="Get Early Access" />
       </div>
