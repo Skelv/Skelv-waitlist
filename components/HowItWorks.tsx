@@ -6,10 +6,18 @@ import React, { useState } from 'react'
 const actionBtns = ["1","2","3","4"]
 
 const worksContent = [
-    {id:0, title:'Businesses Post Tasks', description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis corporis blanditiis itaque officia praesentium tenetur quia accusantium aperiam? Iusto pariatur voluptas laudantium amet praesentium ipsum aliquam sunt dicta numquam!', imageSrc:'/assets/works1.png'},
-    {id:1, title:'Talents Accept & Complete Tasks', description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis corporis blanditiis itaque officia praesentium tenetur quia accusantium aperiam? Iusto pariatur voluptas laudantium amet praesentium ipsum aliquam sunt dicta numquam!', imageSrc:'/assets/works2.png'},
-    {id:2, title:'Works Gets Done', description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis corporis blanditiis itaque officia praesentium tenetur quia accusantium aperiam? Iusto pariatur voluptas laudantium amet praesentium ipsum aliquam sunt dicta numquam!', imageSrc:'/assets/works3.png'},
-    {id:3, title:'Growth for Everyone', description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis corporis blanditiis itaque officia praesentium tenetur quia accusantium aperiam? Iusto pariatur voluptas laudantium amet praesentium ipsum aliquam sunt dicta numquam!', imageSrc:'/assets/works4.png'},
+    {id:0, title:'Businesses Post Tasks', description:'Small businesses list real-world tasks they need help with, providing details on requirements, expectations,
+ and desired outcomes. This helps them connect with aspiring professionals eager to gain hands-on experience while delivering 
+quality work.
+', imageSrc:'/assets/works1.png'},
+    {id:1, title:'Talents Apply & Work
+', description:'Professionals looking to build their portfolio apply for tasks that match their skills, complete them, and gain hands-on experience.
+', imageSrc:'/assets/works2.png'},
+    {id:2, title:'Feedback & Portfolio Growth
+', description:'Once a task is completed, businesses provide ratings and feedback, helping talents improve and showcase their work effectively.
+', imageSrc:'/assets/works3.png'},
+    {id:3, title:'Growth for Everyone', description:'Talents gain valuable experience and build strong portfolios, while businesses receive quality work that helps them grow. This creates a win-win system where both sides benefit and succeed.
+', imageSrc:'/assets/works4.png'},
 ]
 
 const HowItWorks = () => {
