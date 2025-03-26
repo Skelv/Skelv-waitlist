@@ -8,13 +8,6 @@ const companiesImages = [
   { src: "/assets/avatar3.png" },
 ];
 
-const companies = [
-  { src: "/logo5c.png" },
-  { src: "/logo6c.png" },
-  { src: "/logo5c.png" },
-  { src: "/logo6c.png" },
-  { src: "/logo5c.png" },
-];
 
 
 const Hero = () => {
@@ -42,7 +35,7 @@ const Hero = () => {
                   height={40}
                   className="rounded-full  "
                   src={data.src}
-                  alt="image"
+                  alt="image" priority 
                 />
               ))}
             </div>
@@ -59,6 +52,7 @@ const Hero = () => {
               className={`w-full h-[60%] object-cover rounded-3xl border-spacing-3 border-opacity-10 border border-[grey]`}
               src="/assets/hero1.png"
               alt="image"
+priority
             />
             <Image
               width={300}
@@ -66,6 +60,7 @@ const Hero = () => {
               className={`w-full h-[40%] my-3 object-cover rounded-3xl max-sm:rounded-xl border-spacing-3 border-opacity-10 border border-[grey]`}
               src="/assets/hero2.png"
               alt="image"
+priority
             />
           </div>
           <div className="">
@@ -75,6 +70,7 @@ const Hero = () => {
               className={`w-full h-[40%] my-3 object-cover rounded-3xl max-sm:rounded-xl border-spacing-3 border-opacity-10 border border-[grey]`}
               src="/assets/hero3.png"
               alt="image"
+priority
             />
             <Image
               width={300}
@@ -82,6 +78,7 @@ const Hero = () => {
               className={`w-full h-[60%] object-cover rounded-3xl max-sm:rounded-xl border-spacing-3 border-opacity-10 border border-[grey]`}
               src="/assets/hero4.png"
               alt="image"
+priority
             />
           </div>
         </div>
