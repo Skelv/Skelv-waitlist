@@ -90,7 +90,7 @@ type ButtonProps = {
     width?: string;
     paddingX?: string;
     className?: string;
-    link?: string | 'https://wa.link/l2w6s6';
+    link?: string | '/waitlist';
 }
 
 type FormButtonProps = {
@@ -103,8 +103,8 @@ type FormButtonProps = {
 const Button = ({text, icon, color, width, paddingX, className, link} :ButtonProps) => {
   return (
     <div  >
-      <Link href={link ?? ""} className='flex items-center ' > 
-       <button type='button' className={`${color? color : 'bg-orange-500' } ${width? width : '' } text-center outline-none border-none flex justify-center ${className} items-center text-xl py-3 ${paddingX? paddingX : 'px-6'} rounded-xl text-white hover:bg-opacity-100 bg-opacity-90  my-1 `} >{text} <span className='mx-2 text-xl' >{icon}</span></button>
+      <Link href={link ?? ""} className='flex items-center max-sm:justify-center ' > 
+       <button type='button' role='button' aria-label='button' className={`${color? color : 'bg-orange-500' } ${width? width : '' } text-center outline-none border-none flex justify-center ${className} items-center text-xl py-3 ${paddingX? paddingX : 'px-6'} rounded-xl text-white hover:bg-opacity-100 bg-opacity-90  my-1 `} >{text} <span className='mx-2 text-xl' >{icon}</span></button>
       </Link>
      </div>
   )
@@ -115,8 +115,8 @@ export default Button
 export const OutLineButton= ({text, icon,  width, paddingX, className, link} :ButtonProps) => {
   return (
     <div  >
-      <Link href={link ?? ""} className='flex items-center ' > 
-       <button type='button' className={` ${width? width : '' } outline-none border-2 flex justify-center text-center ${className} items-center text-xl py-3 ${paddingX? paddingX : 'px-6'} rounded-xl  hover:bg-opacity-100 bg-opacity-90  my-1 `} >{text} <span className='mx-2 text-xl' >{icon}</span></button>
+      <Link href={link ?? ""} className='flex items-center  ' > 
+       <button type='button'  role='button' aria-label='button' className={` ${width? width : '' } outline-none border-2 flex justify-center text-center ${className} items-center text-xl py-3 ${paddingX? paddingX : 'px-6'} rounded-xl  hover:bg-opacity-100 bg-opacity-90  my-1 `} >{text} <span className='mx-2 text-xl' >{icon}</span></button>
       </Link>
      </div>
   )
