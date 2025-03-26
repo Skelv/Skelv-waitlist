@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import {BackToTop, Banner, Faq, Footer, Header, Hero, HowItWorks, Mission, Vision } from '@/components'
+=======
+import {Faq, Footer, Header, Hero, Mission, Vision } from '@/components'
+>>>>>>> f52cc9f (first commit)
 import React from 'react'
 
 const Home = () => {
   return (
     <>
+<<<<<<< HEAD
       <main>
         <BackToTop/>
         <Hero/>
@@ -12,6 +17,16 @@ const Home = () => {
         <HowItWorks/>
         <Faq/>
         <Banner/>
+=======
+      <header >
+        <Header/>
+      </header>
+      <main>
+        <Hero/>
+        <Mission/>
+        <Vision/>
+        <Faq/>
+>>>>>>> f52cc9f (first commit)
       </main>
       <footer>
         <Footer/>

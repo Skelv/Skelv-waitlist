@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
@@ -75,3 +76,14 @@ const Footer = () => {
 };
 
 export default Footer;
+=======
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div>Footer</div>
+  )
+}
+
+export default Footer
+>>>>>>> f52cc9f (first commit)
