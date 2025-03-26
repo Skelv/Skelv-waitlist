@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="right-side grid grid-cols-2 max-[1302px]:w-full w-[50%] max-sm:gap-x-2 gap-x-6 max-sm:scale-100 scale-75 max-sm:mb-10  my-5 ">
+        <div className="right-side flex flex-row max-[1302px]:w-full w-[50%] max-sm:gap-x-2 gap-x-6 max-sm:scale-100 scale-75 max-sm:mb-10  my-5 ">
           <div className="">
             <Image
               width={300}
