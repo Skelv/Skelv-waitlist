@@ -7,8 +7,7 @@ import { BiMenuAltRight, BiX } from "react-icons/bi";
 
 const nav = [
   { name: "About", route: "mission" },
-  { name: "How it works", route: 'howitworks'  },
-  { name: "Launching strategy", route: "vision" },
+  { name: "How it works", route: 'howitworks'  },
   { name: "FAQs", route: "faq" },
 ];
 
@@ -22,7 +21,7 @@ const Header = () => {
       
       
       <Link className="text-2xl w-[20%] font-Monteserrat-bold cursor-pointer "  href='/'>
-      <p   >SKLEV</p>
+      <p   >SKELV</p>
       </Link>
       
 
@@ -35,7 +34,7 @@ const Header = () => {
               spy={true}
               key={index}
               offset={-150}>
-              <li className="cursor-pointer max-[1302px]:my-5 font-Monteserrat-bold " role="tab" tabIndex={0}  >{nav.name}</li>
+              <li className="cursor-pointer max-[1302px]:my-5 focus:font-Monteserrat-bold " role="tab" tabIndex={0}  >{nav.name}</li>
             </ScrollLink>
           </ul>
         ))}
