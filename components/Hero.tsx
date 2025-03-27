@@ -44,8 +44,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="right-side flex flex-row max-[1302px]:w-full w-[50%] max-sm:gap-x-2 gap-x-6 max-sm:scale-100 scale-75 max-sm:mb-10  my-5 ">
-          <div className="">
+        <div className="right-side flex flex-row max-[1302px]:w-full lg:max-h-[700px] w-[50%] max-sm:gap-x-2 gap-x-6 max-sm:scale-100 scale-75 max-sm:mb-10  my-5 ">
+          <div className="w-[45%]">
             <Image
               width={300}
               height={300}
@@ -63,7 +63,7 @@ priority
 priority
             />
           </div>
-          <div className="">
+          <div className="w-[45%]">
             <Image
               width={300}
               height={300}
