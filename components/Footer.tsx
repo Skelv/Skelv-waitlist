@@ -66,7 +66,7 @@ const Footer = () => {
         <span className="text-2xl font-Monteserrat-bold"  >Contact Information</span>
         <p className="text-xl my-3" >Follow us on</p>
         <div className="text-3xl flex justify-between mx-auto w-[30%]" ><BiLogoInstagram/> <BiLogoFacebookCircle/> <BiLogoTwitter/></div>
-        <p className="text-xl my-3" >Email: <Link href={'mailto:excellenceay33@gmail.com'}>excellenceay33@gmail.com</Link></p>
+        <p className="text-xl my-3" >Email: <Link href={'mailto:skelv962@gmail.com'}>skelv962@gmail.com</Link></p>
       </div>
     </div>
     <p className='text-center font-Monteserrat-bold text-xl max-sm:text-sm py-10 ' >&copy; {new Date().getFullYear()} Skelv. All Right Reserved. </p>
